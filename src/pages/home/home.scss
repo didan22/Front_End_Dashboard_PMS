@@ -6,25 +6,36 @@
   gap: 20px;
   grid-template-columns: repeat(4, 1fr) ;
   grid-auto-rows: minmax(180px, auto);
-  background-size: cover;
+
   
   .box{
     padding: 20px;
     border-radius: 10px;
     border: 1px solid $soft-bg;
-    background-color: lightblue;
   }
 
   .box1{
     grid-column: span 1;
     grid-row: span 3;
+    background-color: red;
   }
-  .box4{
+  .box1  :hover {
+    background-color: $soft-bg;
+  }
+  .box2{
     grid-column: span 1;
     grid-row: span 3;
+    background-color: green;
   }
-  .box7{
-    grid-column: span 2;
-    grid-row: span 2;
+  .box2  :hover {
+    background-color: $soft-bg;
+  }
+  .box3{
+    grid-column: span 1;
+    grid-row: span 3;
+    background-color: blue;
+  }
+  .box3  :hover {
+    background-color: $soft-bg;
   }
 }
