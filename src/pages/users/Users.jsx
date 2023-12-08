@@ -11,6 +11,6 @@ const Users = () => {
       <DataTable/>
     </div>
   )
-}
+} 
 
 export default Users
