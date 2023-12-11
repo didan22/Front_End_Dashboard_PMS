@@ -31,6 +31,7 @@
     grid-column: span 1;
     grid-row: span 3;
     background-color: red;
+    cursor: pointer;
   }
   .box1  :hover {
     background-color: $soft-bg;
@@ -39,6 +40,7 @@
     grid-column: span 1;
     grid-row: span 3;
     background-color: green;
+    cursor: pointer;
   }
   .box2  :hover {
     background-color: $soft-bg;
@@ -47,6 +49,7 @@
     grid-column: span 1;
     grid-row: span 3;
     background-color: blue;
+    cursor: pointer;
   }
   .box3  :hover {
     background-color: $soft-bg;
