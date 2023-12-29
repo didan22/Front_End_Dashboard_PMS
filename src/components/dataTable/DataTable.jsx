@@ -1,6 +1,7 @@
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
-import { Link } from "react-router-dom";
 import "./dataTable.scss"
+import { Link } from "react-router-dom";
+
 
 const DataTable = () => {
 

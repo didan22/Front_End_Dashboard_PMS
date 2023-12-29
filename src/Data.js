@@ -11,8 +11,8 @@ export const menu = [
 			},
 			{
 				id: 2,
-				title: "Profile",
-				url: "/users/1",
+				title: "Login",
+				url: "/login",
 				icon: "user.svg",
 			},
 		],
